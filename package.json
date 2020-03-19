@@ -1,0 +1,20 @@
+{
+  "name": "cc-chang",
+  "version": "1.0.0",
+  "main": "main.js",
+  "description": "我的CC拓展包",
+  "author": "Chang Liu",
+  "main-menu": {
+    "Packages/CC-Chang/Initiate":{
+      "message":"cc-chang:initiate"
+    }
+  },
+  "runtime-resource": {
+    "path": "core",
+    "name": "base"
+  },
+  "reload": {
+    "ignore": ["core/**/*"]
+  },
+  "scene-script": "getCC.js"
+}
